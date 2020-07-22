@@ -34,7 +34,7 @@ def get_english_meaning(file_path, japanese_emoticon)
  emoticons.each do |key, emoticon_pairs|
    binding.pry
   if emoticon_pairs[1] == japanese_emoticon
-   return emoticon[key]
+   return emoticons[key]
  end
  
    
