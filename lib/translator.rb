@@ -32,9 +32,9 @@ def get_english_meaning(file_path, japanese_emoticon)
   load_library(file_path)
   
  emoticons.each do |key, emoticon_pairs|
-   binding.pry
+   
   if emoticon_pairs[1] == japanese_emoticon
-   return emoticons
+   return key
  end
  
    
